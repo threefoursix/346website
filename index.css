@@ -1,0 +1,29 @@
+body {
+    background-image: url(image2.jpg);
+    color: antiquewhite;
+}
+h1{
+    text-align: center;
+    color: azure;
+}
+.navigation{
+    background-color:#088F8F;
+    text-align: center;
+    overflow: hidden;
+}
+nav a{
+    float: center;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 32px;
+        text-decoration: none;
+        font-size: 40px;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+nav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
